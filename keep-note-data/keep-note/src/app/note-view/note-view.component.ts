@@ -27,7 +27,7 @@ export class NoteViewComponent implements OnInit {
           this.notes = data;
       },
       error: e => {
-        alert("Network Error  !! Please Try Again Later");
+        alert("Network Error !! Please Try Again Later");
       }
     })
   }
